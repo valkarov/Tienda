@@ -3,8 +3,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
 */
 /* 
-    Created on : May 31, 2022, 11:24:07 PM
-    Author     : eXtreme PC
+
 */
 
 .block {
@@ -17,3 +16,41 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     margin: auto;
 }
 
+.static {
+    
+    position:static;
+    border:3px solid green;
+    top:400px;
+    left:50px;
+}
+
+.relative {
+    
+    position:relative;
+    border:3px solid green;
+    top:400px;
+    left:50px;
+    width: 400px;
+    height:500px;
+    
+}
+
+.fixed {
+    
+    position:fixed;
+    border:3px solid green;
+    top:150px;
+    left:50px;
+
+}
+
+.absolute {
+    
+    position:absolute;
+    border:3px solid green;
+    top:80px;
+    left:50px;
+    width: 200px;
+    height: 500px
+
+}
